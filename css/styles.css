@@ -165,3 +165,6 @@ body{
 .vector:hover {
     cursor: pointer;
 }
+.all-options {
+    color: #FFFFFF;
+}
