@@ -11,7 +11,7 @@ body{
     line-height: 0.88;
     letter-spacing: 0.02em;
     color: #212121;
-}
+    }
 .navigation a:hover,
 .navigation a:focus {
     color: #2196F3;
@@ -108,14 +108,14 @@ body{
     text-decoration-line: underline;
     color: rgba(255, 255, 255, 0.6);
 }
-.option-button button {
+.option-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 0.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-color, #2196f3);
-}
+    color: #212121;
+    }
 .project-name {
     font-weight: 700;
     font-size: 18px;
@@ -129,6 +129,11 @@ body{
     color: #757575;
 }
 .all-options {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .vector:hover {
