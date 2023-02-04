@@ -1,39 +1,46 @@
-:root {
+body{
     --main-color: #212121;
     --secondary-color: #757575;
-    font-style: normal;
-    font-weight: 400;
-}
-body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 .navigation a {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.0em;
+    line-height: 0.88;
     letter-spacing: 0.02em;
-    color: var(--main-color, #2196f3);  
-}    
+    color: #212121;
+}
+.navigation a:hover,
+.navigation a:focus {
+    color: #2196F3;
+    cursor: pointer;
+}      
 .brand-link {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.938em;
+    line-height: 0.84;
     letter-spacing: 0.03em;
     color: #2196F3; 
 }
 .contact-link a {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.0em;
+    line-height: 0.88;
     letter-spacing: 0.02em;
-    color: var(--secondary-color,#2196F3);
+    color: #757575;
+}
+.contact-link a:hover,
+.contact-link a:focus {
+    color: #2196F3;
+    cursor: pointer;
 }
 .mian-text {
     font-weight: 900;
     font-size: 44px;
-    line-height: 3.75em;
+    line-height: 0.73;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -42,7 +49,7 @@ body{
 .order-link {
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.875em;
+    line-height: 0.53;
     display: flex;
     text-align: center;
     letter-spacing: 0.06em;
@@ -51,52 +58,52 @@ body{
 .content-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.0em;
+    line-height: 0.88;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .content-text {
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 0.58;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .section-subject {
     font-weight: 700;
     font-size: 36px;
-    line-height: 2.625em;
+    line-height: 0.86;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .team-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.118em;
+    line-height: 0.86;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .team-position {
     font-size: 16px;
-    line-height: 1.0em;
+    line-height: 0.84;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .address-link {
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 0.58;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .footer-link {
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 0.58;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail {
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 0.58;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: rgba(255, 255, 255, 0.6);
@@ -104,7 +111,7 @@ body{
 .option-button button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625em;
+    line-height: 0.62;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-color, #2196f3);
@@ -112,21 +119,18 @@ body{
 .project-name {
     font-weight: 700;
     font-size: 18px;
-    line-height: 2.25em;
+    line-height: 0.5;
     letter-spacing: 0.06em;
 }
 .project-option {
     font-size: 16px;
-    line-height: 1.875em;
+    line-height: 0.53;
     letter-spacing: 0.03em;
     color: #757575;
 }
-.link:hover {
-    color: #2196f3;
+.all-options {
+    color: #FFFFFF;
 }
 .vector:hover {
     cursor: pointer;
-}
-.all-options {
-    color: #FFFFFF;
 }
