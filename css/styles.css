@@ -8,7 +8,7 @@ body{
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.88;
+    line-height: 1.143;
     letter-spacing: 0.02em;
     color: #212121;
     }
@@ -21,14 +21,14 @@ body{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 0.84;
+    line-height: 1.192;
     letter-spacing: 0.03em;
     color: #2196F3; 
 }
 .contact-link a {
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.88;
+    line-height: 1.143;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -40,7 +40,7 @@ body{
 .mian-text {
     font-weight: 900;
     font-size: 44px;
-    line-height: 0.73;
+    line-height: 1.364;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -49,7 +49,7 @@ body{
 .order-link {
     font-weight: 700;
     font-size: 16px;
-    line-height: 0.53;
+    line-height: 1.875;
     display: flex;
     text-align: center;
     letter-spacing: 0.06em;
@@ -58,52 +58,52 @@ body{
 .content-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 0.88;
+    line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .content-text {
     font-size: 14px;
-    line-height: 0.58;
+    line-height: 1.714;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .section-subject {
     font-weight: 700;
     font-size: 36px;
-    line-height: 0.86;
+    line-height: 1.167;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .team-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.86;
+    line-height: 1.188;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .team-position {
     font-size: 16px;
-    line-height: 0.84;
+    line-height: 1.188;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .address-link {
     font-size: 14px;
-    line-height: 0.58;
+    line-height: 1.714;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .footer-link {
     font-size: 14px;
-    line-height: 0.58;
+    line-height: 1.714;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail {
     font-size: 14px;
-    line-height: 0.58;
+    line-height: 1.714;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: rgba(255, 255, 255, 0.6);
@@ -111,7 +111,7 @@ body{
 .option-button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.62;
+    line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -119,19 +119,19 @@ body{
 .project-name {
     font-weight: 700;
     font-size: 18px;
-    line-height: 0.5;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 .project-option {
     font-size: 16px;
-    line-height: 0.53;
+    line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .all-options {
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.62;
+    line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
     color: #FFFFFF;
