@@ -131,7 +131,8 @@ body{
 .vector:hover {
     cursor: pointer;
 }
-.option-button:hover {
+.option-button:hover,
+.option-button:focus {
     background-color: #2196F3;
     color: #FFFFFF;
 }
