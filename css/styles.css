@@ -12,18 +12,17 @@ body{
     letter-spacing: 0.02em;
     color: #212121;
     }
-.navigation a:hover,
-.navigation a:focus {
-    color: #2196F3;
-    cursor: pointer;
-}      
 .brand-link {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    color: #2196F3; 
+    color: #2196F3;
+    text-decoration: none;
+}
+.brand {
+    color: #212121;
 }
 .contact-link a {
     font-weight: 500;
@@ -31,11 +30,6 @@ body{
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: #757575;
-}
-.contact-link a:hover,
-.contact-link a:focus {
-    color: #2196F3;
-    cursor: pointer;
 }
 .mian-text {
     font-weight: 900;
@@ -128,11 +122,30 @@ body{
     letter-spacing: 0.03em;
     color: #757575;
 }
-.vector:hover {
-    cursor: pointer;
-}
+/* pseudoklasy etc */
 .option-button:hover,
 .option-button:focus {
     background-color: #2196F3;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.navigation a:hover,
+.navigation a:focus {
+    color: #2196F3;
+}    
+.contact-link a:hover,
+.contact-link a:focus {
+    color: #2196F3;
+}
+.footer-link:hover,
+.footer-link:focus {
+    color: #2196F3;
+}
+.footer-mail:hover,
+.footer-mail:focus {
+    color: #2196F3;
+}
+.a:hover,
+.a:focus {
+    cursor: pointer;
 }
