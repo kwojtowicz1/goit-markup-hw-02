@@ -2,6 +2,8 @@
     background-color: #FFFFFF;   
     --main-color: #212121;
     --secondary-color:#757575;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 .body {
     font-family: 'Roboto', sans-serif;
