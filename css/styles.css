@@ -143,14 +143,6 @@
 .contact-link a:focus {
     color: #2196F3;
 }
-.footer-link:hover,
-.footer-link:focus {
-    color: #2196F3;
-}
-.footer-mail:hover,
-.footer-mail:focus {
-    color: #2196F3;
-}
 .a:hover,
 .a:focus {
     cursor: pointer;
