@@ -2,13 +2,14 @@
     background-color: #FFFFFF;   
     --main-color: #212121;
     --secondary-color:#757575;
+    --hover-color: #2196F3;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 .body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
+    color: var(--main-color);
+    }
 .navigation a {
     text-decoration: none;
     font-weight: 500;
@@ -23,7 +24,7 @@
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--hover-color);
     text-decoration: none;
 }
 .brand-h {
@@ -37,6 +38,7 @@
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: var(--secondary-color);
 }
 .main-text {
@@ -56,6 +58,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    background-color: var(--hover-color);
 }
 .content-title {
     font-weight: 700;
@@ -95,19 +98,23 @@
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    font-style: normal;
     color: #FFFFFF;
 }
 .footer-link {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    font-style: normal;
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    text-decoration-line: underline;
+    font-style: normal;
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
 .option-button {
@@ -133,20 +140,19 @@
 /* pseudoklasy etc */
 .option-button:hover,
 .option-button:focus {
-    background-color: #2196F3;
+    background-color: var(--hover-color);
     color: #FFFFFF;
     cursor: pointer;
 }
 .navigation a:hover,
 .navigation a:focus {
-    color: #2196F3;
+    color: var(--hover-color);
 }    
 .contact-link a:hover,
 .contact-link a:focus {
-    color: #2196F3;
+    color: var(--hover-color);
 }
-.a:hover,
-.a:focus {
+.order-link:hover {
     cursor: pointer;
 }
 /* tła */
