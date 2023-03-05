@@ -1,12 +1,9 @@
-:root {
-    background-color: #FFFFFF;   
+:root {   
     --main-color: #212121;
     --secondary-color:#757575;
     --hover-color: #2196F3;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
 }
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-color);
     }
