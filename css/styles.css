@@ -2,6 +2,10 @@
     --main-color: #212121;
     --secondary-color:#757575;
     --hover-color: #2196F3;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --footerlink-color: rgba(255, 255, 255, 0.6);
+    --background-color: #2f303A;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -25,10 +29,10 @@ body {
     text-decoration: none;
 }
 .brand-h {
-    color: #000000;
+    color: var(--black-color);
 }
 .brand-f {
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 .contact-link a {
     font-weight: 500;
@@ -45,7 +49,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 .order-link {
     font-weight: 700;
@@ -96,7 +100,7 @@ body {
     line-height: 1.714;
     letter-spacing: 0.03em;
     font-style: normal;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 .footer-link {
     font-size: 14px;
@@ -104,7 +108,7 @@ body {
     letter-spacing: 0.03em;
     font-style: normal;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footerlink-color);
 }
 .footer-mail {
     font-size: 14px;
@@ -112,7 +116,7 @@ body {
     letter-spacing: 0.03em;
     font-style: normal;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footerlink-color);
 }
 .option-button {
     font-weight: 500;
@@ -138,7 +142,7 @@ body {
 .option-button:hover,
 .option-button:focus {
     background-color: var(--hover-color);
-    color: #FFFFFF;
+    color: var(--white-color);
     cursor: pointer;
 }
 .navigation a:hover,
@@ -155,5 +159,5 @@ body {
 /* tła */
 .footer,
 .hero {
-    background-color: #2f303A;
+    background-color: var(--background-color);
 }
